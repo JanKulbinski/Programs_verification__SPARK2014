@@ -1,0 +1,56 @@
+V "GNAT Lib v2018"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U selection%b		selection.adb		eb89ce2d OO PK
+W ada%s			ada.ads			ada.ali
+W ada.assertions%s	a-assert.adb		a-assert.ali
+
+U selection%s		selection.ads		01f4b36c OO PK
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-assert.ads		20180524051736 a1febc19 ada.assertions%s
+D selection.ads		20190316070334 01f4b36c selection%s
+D selection.adb		20190321113920 4b83c158 selection%b
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+X 1 ada.ads
+16K9*Ada 20e8 4|1r6 1r26
+X 2 a-assert.ads
+50K13*Assertions 66e19 4|1w10 1r30
+X 3 selection.ads
+1K9*Selection 17l5 17e14 4|2b14 33l5 33t14
+3A9*Arr(integer)<integer> 5r25 11r31 4|5r31
+5V13*Sorted{boolean} 5>21 15s14 4|26s33
+5a21 A{3A9} 6r21 6r32 6r46 6r54 9r15
+6i16 I{integer} 6r48 6r56
+11U14*Sort 11=20 4|5b14 31l8 31t12
+11a20 A{3A9} 13r13 14r8 15r22 4|5b20 9r16 9r27 11r24 13r16 13r23 16r47 17r59
+. 17r67 19r15 20m10 20r18 21m10 22r53 22r63 22r71 26r41 26r44
+X 4 selection.adb
+6i7 min{integer} 10m10 13r25 14m16 16r35 17r69 20r20 21r12
+7i7 c{integer} 19m10 21r20
+9i11 I{integer} 10r17 11r19 16r42 17r49 19r17 20r12 22r46 22r65 26r55
+11i14 J{integer} 13r18 14r23 17r54
+17i44 M{integer} 17r61
+22i41 J{integer} 22r73
+
+QQ SPARKVERSION 2018 (20180523)
+GG EK_DIRECT_CALLS selection__sorted 0
+GG EK_GLOBALS selection__sorted local FALSE E_FUNCTION FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS selection__sort 1 selection__sorted
+GG EK_GLOBALS selection__sort local FALSE E_PROCEDURE FALSE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS selection 0
+GG EK_GLOBALS selection local FALSE E_PACKAGE TRUE ORIGIN_FLOW proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_END_MARKER

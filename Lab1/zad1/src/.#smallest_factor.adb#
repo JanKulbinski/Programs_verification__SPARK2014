@@ -1,0 +1,11 @@
+package body Factor with SPARK_Mode is
+   procedure Smallest_Factor (N : in out Positive; Factor : out Positive) is
+   begin
+      for I in 2 .. N loop
+         if N/I = 0 then
+            Factor := I;
+            exit;
+         end if;
+      end loop;
+      N := N/Fac
+   end Smallest_Factor;

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 78" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\obj\gnatprove\gnatprove.out</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\factor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\factor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\factor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\factor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 2" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 73" line=" 7" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\factor.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\lab1zad1.gpr</vfs_project>
+      <vfs_file>C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab1\zad1\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

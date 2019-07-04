@@ -1,0 +1,7 @@
+20190316104750
+-c
+-x
+ada
+-gnatA
+-gnatc
+-gnates=C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab3\zad1\obj\gnatprove\ee72812a.tmp

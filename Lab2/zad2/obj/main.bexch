@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab2\zad2\lab2zad2.gpr
+20190316110130
+[BOUND OBJECT FILES]
+C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab2\zad2\obj\max2.o
+C:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab2\zad2\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab2\zad2\obj\
+-LC:\Users\janku\OneDrive\Pulpit\GPSWorkspace\NSI\Lab2\zad2\obj\
+-LC:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

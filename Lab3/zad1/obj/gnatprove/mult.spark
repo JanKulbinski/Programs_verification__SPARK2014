@@ -1,0 +1,872 @@
+{
+  "spark": [
+    {
+      "name": "Mult",
+      "sloc": [
+        {
+          "file": "mult.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Mult.mult",
+      "sloc": [
+        {
+          "file": "mult.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "mult.adb",
+      "line": 8,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__30.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 9,
+      "col": 16,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__31.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 9,
+      "col": 16,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__32.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 11,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__33.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 12,
+      "col": 13,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__34.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__35.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__36.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 10,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__37.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 7,
+      "col": 20,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__38.trace",
+      "how_proved": "flow"
+    },
+    {
+      "file": "mult.adb",
+      "line": 15,
+      "col": 7,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "tracefile": "mult__flow__39.trace",
+      "how_proved": "flow"
+    }
+  ],
+  "proof": [
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 44,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 442,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 13,
+      "check_col": 44,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.ads",
+      "line": 5,
+      "col": 30,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 144,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.ads",
+      "check_line": 5,
+      "check_col": 30,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 9,
+      "col": 22,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 314,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 9,
+      "check_col": 22,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.ads",
+      "line": 5,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 154,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "split_disj": [
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              },
+              {
+                "proof_attempts": {
+                },
+                "transformations": {
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "check_file": "mult.ads",
+      "check_line": 5,
+      "check_col": 14,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 12,
+      "col": 19,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 12,
+      "check_col": 19,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 40,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 326,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 13,
+      "check_col": 40,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 8,
+      "col": 16,
+      "rule": "VC_DIVISION_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 8,
+      "check_col": 16,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 33,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 13,
+      "check_col": 33,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1855,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 13,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 13,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1242,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 13,
+      "check_col": 32,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 11,
+      "col": 18,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 11,
+      "check_col": 18,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "mult.adb",
+      "line": 11,
+      "col": 18,
+      "rule": "VC_OVERFLOW_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Mult.mult",
+        "sloc": [
+          {
+            "file": "mult.ads",
+            "line": 2
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 425,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "mult.adb",
+      "check_line": 11,
+      "check_col": 18,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Mult.mult",
+          "sloc": [
+            {
+              "file": "mult.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Mult.mult",
+          "sloc": [
+            {
+              "file": "mult.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Mult.mult",
+          "sloc": [
+            {
+              "file": "mult.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Mult",
+          "sloc": [
+            {
+              "file": "mult.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "marking": 4.99329005833715E-04,
+    "globals (basic)": 6.82535988744348E-04,
+    "globals/properties (advanced)": 1.61755899898708E-03,
+    "flow analysis": 6.74735708162189E-03,
+    "codepeer results": 8.21100002212916E-06,
+    "init_why_sections": 3.32030002027750E-04,
+    "translation of standard": 5.00868586823344E-03,
+    "translation of compilation unit": 2.16256198473275E-03,
+    "proof": 1.62846994400024E+00
+  }
+}
